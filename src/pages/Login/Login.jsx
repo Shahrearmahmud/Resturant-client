@@ -10,7 +10,7 @@ import { Helmet } from "react-helmet-async";
 import Swal from "sweetalert2";
 
 const Login = () => {
-  const [disabled, setDisabled] = useState(true);
+  const [setDisabled] = useState(true);
   const { signIn } = useContext(AuthContext);
   const navigate = useNavigate();
   const location = useLocation();
